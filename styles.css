@@ -78,7 +78,7 @@ nav .nav-link:hover {
 }
 
 .fixed-image-section {
-    background-image: url('/Media/metallurgy-3434079_1280.jpg'); /* Replace with your image path */
+    background-image: url('./Media/metallurgy-3434079_1280.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
     height: 31rem;
