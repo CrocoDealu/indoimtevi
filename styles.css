@@ -234,6 +234,13 @@ nav .nav-link:hover {
 
 }
 
+@media (max-width: 400px) {
+    .custom-he {
+        font-size: 0.9rem !important;
+    }
+}
+
+
 .custom-img {
     max-width: 100%;
     height: auto;
