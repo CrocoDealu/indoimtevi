@@ -226,6 +226,12 @@ nav .nav-link:hover {
     .fixed-image-section {
         background-attachment: scroll; /* Changed from fixed to scroll */
     }
+
+   .custom-he {
+       font-size: 1rem !important;
+   }
+
+
 }
 
 .custom-img {
