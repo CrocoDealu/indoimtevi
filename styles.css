@@ -78,7 +78,7 @@ nav .nav-link:hover {
 }
 
 .fixed-image-section {
-    background-image: url('./Media/utilaj 1.jpg'); /* Ensure your path is correct */
+    background-image: url('./media/utilaj 1.jpg'); /* Ensure your path is correct */
     background-size: cover;
     background-position: center;
     height: 50vh; /* This will make the section take up 100% of the viewport height */
