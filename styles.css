@@ -1,6 +1,6 @@
 body {
     background-color: #0E0D06;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -78,14 +78,14 @@ nav .nav-link:hover {
 }
 
 .fixed-image-section {
-    background-image: url('./Media/metallurgy-3434079_1280.jpg'); /* Replace with your image path */
+    background-image: url('./Media/utilaj 1.jpg'); /* Ensure your path is correct */
     background-size: cover;
     background-position: center;
-    height: 31rem;
+    height: 50vh; /* This will make the section take up 100% of the viewport height */
     width: 100%;
     position: relative;
     z-index: -1;
-    background-attachment: fixed;
+    background-attachment: fixed; /* Changed from fixed to scroll */
 }
 
 .services-section {
@@ -222,4 +222,10 @@ nav .nav-link:hover {
     .feature-box-border-when-small {
         border-left: 1px solid #dca54a;
     }
+}
+
+.custom-img {
+    max-width: 100%;
+    height: auto;
+    max-height: 50px;
 }
